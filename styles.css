@@ -51,15 +51,15 @@ body {
 @media screen and (max-width: 576px) {
 
     .main-info,
-    .contact_info_container {
+    .contact-info-container {
         flex-direction: column;
     }
 
-    .contact_info_container {
+    .contact-info-container {
         align-items: center;
     }
 
-    .contact-info__block:not(:last-child) {
+    .contact-info-block:not(:last-child) {
         margin-bottom: 20px;
     }
 
@@ -152,7 +152,7 @@ body {
     fill: var(--text-decoration-color);
 }
 
-.intro_text {
+.intro__text {
     color: var(--secondary-text-color);
     text-align: justify;
 }
@@ -257,6 +257,7 @@ body {
     text-align: left;
     margin-bottom: 20px;
 }
+
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
